@@ -1,0 +1,62 @@
+/* Container for the vendor list page */
+.vender-Layout {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Title of the vendor list */
+.listVendor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  height: 40px;
+ margin-bottom: 20px;
+ 
+}
+
+/* Table container to center align the table */
+.tablealignment {
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Table styling */
+.vendor-table {
+  
+  
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border:  2px solid black;
+  
+}
+
+.vendor-table th, .vendor-table td {
+  border: 1px solid #1d0808;
+  padding: 8px;
+  text-align: center;
+}
+
+.vendor-table th {
+  background-color: #ef40fc;
+  font-weight: bold;
+}
+
+.vendor-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.vendor-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}

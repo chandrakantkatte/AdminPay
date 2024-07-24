@@ -1,0 +1,55 @@
+/* src/components/Header.css */
+
+header {
+    background-color: #ac39cf;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+  
+    a {
+      padding: 0.5rem;
+    }
+  }
+  
