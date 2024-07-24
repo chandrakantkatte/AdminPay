@@ -6,8 +6,8 @@ function EmployeeForm() {
   const [employee, setEmployee] = useState({
     name: '',
     email: '',
-    designation: '', // Changed from position to designation
-    ctc: '' // Added field for CTC
+    designation: '', 
+    ctc: '' 
   });
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
